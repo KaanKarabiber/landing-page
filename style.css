@@ -100,6 +100,7 @@ button{
     justify-content: center;
     gap: 20px;
 }
+
 .small-images{
     width: 150px;
     height: 100px;
@@ -107,6 +108,29 @@ button{
     border-radius: 20px;
     border: 3px solid #3882F6;
 }
+
 .text-under-image{
     max-width: 150px;
+}
+
+.fourth-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+.quote{
+    align-self: center;
+    font-size: 36px;
+    text-indent: 20px;
+    font-weight: lighter;
+    margin: 20px 200px;
+}
+
+.author{
+    align-self: flex-end;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
 }
